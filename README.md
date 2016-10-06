@@ -1,7 +1,8 @@
 # wiremock-load-test
 Using wiremock for load test
 
-# How to run
+# How to run 
+* Instructions specific to mac
 
 ## Whats needed
 * Docker 1.12.1
