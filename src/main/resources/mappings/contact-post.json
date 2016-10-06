@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/v1/contacts"
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "create-contact-response.vm",
+    "headers": {
+      "Content-Type": "text/json"
+    },
+    "fixedDelayMilliseconds": 800
+  }
+}

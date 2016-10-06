@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/v1/contacts/(.*)"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "contact-by-id-response.vm",
+    "headers": {
+      "Content-Type": "text/json"
+    },
+    "fixedDelayMilliseconds": 800
+  }
+}

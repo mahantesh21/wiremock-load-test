@@ -1,0 +1,20 @@
+[
+
+#set($start = 0)
+
+#set($range = [$start..$end])
+#foreach($i in $range)
+{
+"_id": "$id$i",
+"firstName": "$fname$i",
+"lastName": "$lname$i",
+"email": "$email$i@lab.com",
+"phoneNumber": "$phone$i"
+}
+
+    #if($i != $end)
+    ,
+    #end
+
+#end
+]

@@ -1,0 +1,7 @@
+{
+"_id": "$id",
+"firstName": "$fname",
+"lastName": "$lname",
+"email": "$email@lab.com",
+"phoneNumber": "$phone"
+}

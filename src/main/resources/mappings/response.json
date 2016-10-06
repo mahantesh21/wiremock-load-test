@@ -1,0 +1,10 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/resource"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "response-body.vm"
+  }
+}

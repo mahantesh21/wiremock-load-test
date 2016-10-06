@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/v1/contactprofiles"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "contact-profiles.vm",
+    "headers": {
+      "Content-Type": "text/json"
+    },
+    "fixedDelayMilliseconds": 800
+  }
+}
